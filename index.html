@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DELIBERADOS</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./img/logofinal.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <!--? ESTE ES EL MENU DE NAVEGACIÓN -->
+    <nav class="navbar navbar-expand-lg bg-menu">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./img/logofinal.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/productos.html">Productos</a>
+            </li>
+            <a class="nav-link active" aria-current="page" href="./pages/programas.html">Programas</a>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/quienes-somos.html">Quiénes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <img src="./img/banner5.png" alt="">
+      <!--? ESTA ES LA IMAGEN DE FONDO DE LA HERO SECTION, SERIA UN BANNER DONDE LAS IMAGENES SE CAMBIAN-->
+      <h2>Bienvenidos a Liberados</h2>
+      <p>Un espacio donde las charlas de amigos se mezclan con risas y reflexiones Tres amigos, cero filtros,
+        muchas historias ¿Te unes a la conversación?</p>
+      <div class="hero-botones">
+        <a href="./pages/programas.html">REPRODUCIR</a>
+        <a href="./pages/quienes-somos.html">MAS INFO</a>
+      </div>
+    </section>
+    <!--? ESTA SECCION ES DONDE SE PUEDE REPRODUCIR EL ULTIMO CAPITULO DEL PROGRAMA -->
+    <section>
+      <h2 class="titulo-programas-anteriores">Todos los Miercoles a las 21hs</h2>
+    </section>
+    <section class="ultimo-episodio">
+      <div>
+        <h2>Reproducir Ultimo Programa</h2>
+        <p>En nuestro último programa de streaming, tuvimos el placer de recibir a Juan Carlos, el famoso cantante de
+          cuarteto. Durante la transmisión, charlamos sobre su carrera, sus influencias y los proyectos que tiene en
+          mente. La mejor parte fue, sin duda, la actuación en vivo, donde nos regaló algunos de sus grandes éxitos. La
+          conexión con nuestra audiencia fue increíble, y todos compartimos un momento lleno de energía y buena música.
+          Sin duda, fue una experiencia inolvidable y esperamos repetirla pronto.</p>
+      </div>
+      <!--? EL IFRAME NO ME REPRODUCE LA PRE-IMAGEN DEL VIDEO PORQUE EL VIDEO TIENE COPY -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/hv8z9agRZXc?si=ubVaJFr5Z2KSah-8"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <!--? EN ESTA SECCION SE PUEDE VER VIÑETAS CON LOS PROGRAMAS ANTERIORES USANDO GRID -->
+    <h2 class="titulo-programas-anteriores">Programas Anteriores</h2>
+    <section class="programas-viejos">
+      <div>
+        <img src="./img/FEDERICO.jpeg" alt="Imagen-Federico">
+        <H2>Federico Scamarella</H2>
+        <a href="https://www.youtube.com/live/N5GGrLuJP30?si=vkPcMvChHBNeCmNe" target="_blank">Ver</a>
+    </div>
+    <div>
+        <img src="./img/VICTORIA.jpeg" alt="Imagen-Victoria">
+        <h2>Victoria Mercandal</h2>
+        <a href="https://www.youtube.com/live/KRW_4W7vOkM?si=LuDGNgiU41t0vxgR" target="_blank">Ver</a>
+    </div>
+    <div>
+        <img src="./img/ARIEL.jpeg" alt="Imagen-Ariel">
+        <h2>Ariel Guiñazu</h2>
+        <a href="https://www.youtube.com/live/Ixias4bcdz4?si=Z_w8uAWGkVwT7kga" target="_blank">Ver</a>
+    </div>
+    </section>
+  </main>
+  <!--? EN FOOTER TIENE LAS REDES -->
+  <footer id="pie" class="contenedor-footer">
+    <div>
+      <a href="https://www.instagram.com/liberadosok/" target="_blank"><img src="./img/instagram.png"
+          alt="Icono-Instagram"></a>
+      <a href="https://www.tiktok.com/@liberadios" target="_blank"><img src="./img/tik-tok.png" alt="Icono-Tik-toc"></a>
+      <a href="http:" target="_blank"><img src="./img/whatsapp.png" alt="Imagen-Whatsapp"></a>
+    </div>
+    <a href="#top" class="ir-arriba">Ir Arriba</a>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+</html>
