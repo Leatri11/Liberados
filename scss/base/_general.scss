@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding-inline: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Bowlby One", sans-serif;
+}
+
+h2 {
+  font-family: "Bowlby One", sans-serif;
+  color: black;
+}
+
+p {
+  font-family: "Protest Strike", sans-serif;
+}
+.titulo-programas-anteriores{
+  text-align: center;
+  color: white;
+  background-color: #06A3DA;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);  
+  margin-top: 15px;
+}

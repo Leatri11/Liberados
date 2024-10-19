@@ -1,0 +1,24 @@
+// Header
+.bg-menu {
+    background-color: $color-principal;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.btn-outline-success {
+    color: white !important;
+    border-color: white !important;
+
+    &:hover {
+        color: black !important;
+        background-color: white !important;
+        border-color: black !important;
+    }
+}
+
+.navbar-toggler {
+    color: white !important;
+    background-color: white !important;
+}

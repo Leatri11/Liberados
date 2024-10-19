@@ -136,6 +136,7 @@ main{
     color: white;
     background-color: #06A3DA;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);  
+    margin-top: 15px;
 }
 /*!--------------------IMPREMENTACION DE GRID--------------------*/
 .programas-viejos{
@@ -210,13 +211,8 @@ main{
     bottom: 0;
     padding: 5px;
 }
-.espacio{
-    margin-top: 20px;
-}
+
 /*! ------------------------CSS DE PAGINA CONTACTO------------------------ */
-.form-label{
-    color: #06A3DA;
-}
 .btn-primary{
     background-color:#06A3DA !important;
     margin-bottom: 10px;
@@ -226,6 +222,7 @@ main{
 .form-label{
     font-family: "Protest Strike", sans-serif !important;
     font-size: 30px !important;
+    color: #06A3DA;
 }
 .mb-3{
     margin-top: 50px;

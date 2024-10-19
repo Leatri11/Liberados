@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding-inline: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Bowlby One", sans-serif; }
+
+h2 {
+  font-family: "Bowlby One", sans-serif;
+  color: black; }
+
+p {
+  font-family: "Protest Strike", sans-serif; }
+
+.titulo-programas-anteriores {
+  text-align: center;
+  color: white;
+  background-color: #06A3DA;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-top: 15px; }
+
+.bg-menu {
+  background-color: #06A3DA; }
+
+.nav-link {
+  color: white !important; }
+
+.btn-outline-success {
+  color: white !important;
+  border-color: white !important; }
+  .btn-outline-success:hover {
+    color: black !important;
+    background-color: white !important;
+    border-color: black !important; }
+
+.navbar-toggler {
+  color: white !important;
+  background-color: white !important; }
+
+main {
+  background-color: #F4F4F9; }
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 521px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+  .hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0; }
+  .hero h2, .hero p, .hero a {
+    position: relative;
+    color: #06A3DA;
+    text-align: center;
+    z-index: 1; }
+  .hero h2 {
+    font-size: 48px;
+    margin-top: 50px;
+    text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.8); }
+  .hero p {
+    font-size: 30px;
+    margin: 50px 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+    background-color: rgba(6, 162, 218, 0.6);
+    padding: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    border-radius: 10px; }
+  .hero div {
+    display: flex;
+    justify-content: center; }
+    .hero div a {
+      background-color: #06A3DA;
+      color: white;
+      padding: 10px 20px;
+      margin: 10px;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease; }
+      .hero div a:hover {
+        background-color: #0477A1; }
+
+.ultimo-episodio {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px; }
+  .ultimo-episodio div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    margin-right: 50px; }
+    .ultimo-episodio div h2 {
+      color: #06A3DA;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); }
+    .ultimo-episodio div p {
+      color: white;
+      background-color: rgba(6, 162, 218, 0.6);
+      padding: 10px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+      border-radius: 10px; }
+
+.evolucion {
+  display: flex;
+  justify-content: space-evenly; }
+  .evolucion div {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin-top: 10px; }
+    .evolucion div img {
+      width: 300px;
+      height: 200px; }
+
+.parrafo-qs {
+  color: #06A3DA;
+  color: #FFFFFF;
+  background-color: rgba(6, 162, 218, 0.6);
+  padding: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  margin: 10px; }
+
+.programas-viejos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 10px; }
+  .programas-viejos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    text-align: center;
+    background-color: #06A3DA;
+    height: 350px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    border-radius: 10px; }
+    .programas-viejos div img {
+      width: 250px;
+      height: 250px;
+      margin: 5px;
+      object-fit: cover; }
+    .programas-viejos div h2 {
+      color: white;
+      margin: 10px;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      font-size: 20px; }
+    .programas-viejos div a {
+      background-color: white;
+      color: #06A3DA;
+      padding: 5px 10px;
+      margin-bottom: 5px;
+      text-decoration: none;
+      font-size: 15px;
+      border-radius: 5px;
+      display: block;
+      width: 80%; }
+
+.productos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 250px;
+  gap: 15px;
+  margin: 10px;
+  margin-top: 30px; }
+  .productos div {
+    text-align: center;
+    position: relative;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    border-radius: 10px; }
+    .productos div img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    .productos div h2 {
+      color: white;
+      margin: 5px;
+      background-color: rgba(0, 0, 0, 0.39);
+      position: absolute;
+      bottom: 0;
+      padding: 5px; }
+
+.mb-3 {
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.btn-primary {
+  background-color: #06A3DA !important;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 30px; }
+
+.form-label {
+  font-family: "Protest Strike", sans-serif !important;
+  font-size: 30px !important;
+  color: #06A3DA; }
+
+footer {
+  background-color: #06A3DA; }
+  footer .cf {
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center; }
+    footer .cf div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 50px; }
+      footer .cf div a img {
+        width: 50px;
+        height: 50px; }
+  footer .ir-arriba {
+    background-color: white;
+    color: #06A3DA;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px; }
+
+@media screen and (max-width: 852px) {
+  .programas-viejos {
+    grid-template-columns: 1fr 1fr; }
+  .productos {
+    grid-template-columns: 1fr 1fr; }
+  .ultimo-episodio {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px; }
+    .ultimo-episodio div p {
+      display: none; } }
+
+@media screen and (max-width: 734px) {
+  .hero p {
+    font-size: 20px; } }
+
+@media screen and (max-width: 600px) {
+  .hero {
+    height: 50vh;
+    text-align: center;
+    background-position: center;
+    background-size: cover; }
+    .hero h2 {
+      font-size: 30px;
+      margin: 10px 0; }
+    .hero p {
+      font-size: 16px;
+      margin-bottom: 10px;
+      margin-top: 30px; }
+  .ultimo-episodio {
+    flex-direction: column;
+    align-items: center; }
+    .ultimo-episodio iframe {
+      width: auto;
+      height: auto;
+      margin-bottom: 5px; }
+  .programas-viejos {
+    grid-template-columns: 1fr; }
+  .productos {
+    grid-template-columns: 1fr; }
+  .ultimo-episodio {
+    flex-direction: column;
+    text-align: center; }
+  .cf {
+    flex-direction: column; }
+  .ir-arriba {
+    font-size: 16px; }
+  .evolucion {
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 509px) {
+  .hero div {
+    display: none; } }
+
+@media screen and (max-width: 400px) {
+  .hero h2 {
+    margin-top: 20px; }
+  .hero p {
+    margin-top: 5px; } }

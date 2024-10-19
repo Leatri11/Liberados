@@ -1,0 +1,111 @@
+// Media Queries
+
+@media screen and (max-width: 852px) {
+  .programas-viejos {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .productos {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ultimo-episodio {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+
+    div {
+
+      p {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 734px) {
+  .hero {
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    height: 50vh;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+
+    h2 {
+      font-size: 30px;
+      margin: 10px 0;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 10px;
+      margin-top: 30px;
+    }
+  }
+
+  .ultimo-episodio {
+    flex-direction: column;
+    align-items: center;
+
+    iframe {
+      width: auto;
+      height: auto;
+      margin-bottom: 5px;
+    }
+  }
+
+  .programas-viejos {
+    grid-template-columns: 1fr;
+  }
+
+  .productos {
+    grid-template-columns: 1fr;
+  }
+
+  .ultimo-episodio {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cf {
+    flex-direction: column;
+  }
+
+  .ir-arriba {
+    font-size: 16px;
+  }
+
+  .evolucion {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width:509px) {
+  .hero{
+    div{
+      display: none
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero {
+    h2 {
+      margin-top: 20px;
+    }
+
+    p {
+      margin-top: 5px;
+    }
+  }
+  }
