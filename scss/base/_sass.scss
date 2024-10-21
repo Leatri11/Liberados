@@ -1,6 +1,41 @@
-
-
 // Variables
 $color-principal: #06A3DA;
 $color-secundario: #F4F4F9;
 $color-terciario: #0477A1;
+
+//Lista
+$fuentes: "Bowlby One", "Protest Strike", "Arial", "Sans-serif";
+
+//extend
+%titulo-separador {
+    text-align: center;
+    color: white;
+    background-color: #06A3DA;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+}
+%boton-azul{
+    background-color: $color-principal;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+%boton-blanco{
+    background-color: white;
+    color: $color-principal;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+//mixin
+@mixin flex-center($flex, $justify, $align) {
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+  }

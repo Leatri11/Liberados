@@ -9,27 +9,23 @@ footer {
     text-align: center;
 
     div {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      @include flex-center(flex, space-between, center);
       gap: 50px;
 
       a {
         img {
           width: 50px;
           height: 50px;
+          transition: transform 0.3s ease-in-out;
+          &:hover{
+            transform: scale(1.2);
+          }
         }
       }
     }
   }
 
   .ir-arriba {
-    background-color: white;
-    color: $color-principal;
-    padding: 10px 20px;
-    margin: 10px;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 5px;
+    @extend %boton-blanco;
   }
 }

@@ -1,3 +1,28 @@
+.titulo-separador {
+  text-align: center;
+  color: white;
+  background-color: #06A3DA;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-top: 15px; }
+
+.hero div a {
+  background-color: #06A3DA;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px; }
+
+footer .ir-arriba {
+  background-color: white;
+  color: #06A3DA;
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px; }
+
 * {
   margin: 0;
   padding-inline: 0;
@@ -6,21 +31,17 @@
 a {
   text-decoration: none;
   color: white;
-  font-family: "Bowlby One", sans-serif; }
+  font-family: "Bowlby One"; }
+
+h1 {
+  font-family: "Bowlby One"; }
 
 h2 {
-  font-family: "Bowlby One", sans-serif;
+  font-family: "Bowlby One";
   color: black; }
 
 p {
-  font-family: "Protest Strike", sans-serif; }
-
-.titulo-programas-anteriores {
-  text-align: center;
-  color: white;
-  background-color: #06A3DA;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  margin-top: 15px; }
+  font-family: "Protest Strike"; }
 
 .bg-menu {
   background-color: #06A3DA; }
@@ -59,18 +80,18 @@ main {
     height: 100%;
     object-fit: cover;
     z-index: 0; }
-  .hero h2, .hero p, .hero a {
+  .hero h1, .hero p, .hero a {
     position: relative;
     color: #06A3DA;
     text-align: center;
     z-index: 1; }
-  .hero h2 {
+  .hero h1 {
     font-size: 48px;
-    margin-top: 50px;
+    margin-top: 20px;
     text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.8); }
   .hero p {
     font-size: 30px;
-    margin: 50px 0;
+    margin: 10px 0;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -83,21 +104,14 @@ main {
     display: flex;
     justify-content: center; }
     .hero div a {
-      background-color: #06A3DA;
-      color: white;
-      padding: 10px 20px;
-      margin: 10px;
-      text-decoration: none;
-      font-size: 18px;
-      border-radius: 5px;
       transition: background-color 0.3s ease; }
       .hero div a:hover {
         background-color: #0477A1; }
 
 .ultimo-episodio {
   display: flex;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   padding: 50px; }
   .ultimo-episodio div {
     display: flex;
@@ -141,9 +155,9 @@ main {
   margin-bottom: 10px; }
   .programas-viejos div {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin: 5px;
     text-align: center;
     background-color: #06A3DA;
@@ -221,20 +235,15 @@ footer {
     text-align: center; }
     footer .cf div {
       display: flex;
-      align-items: center;
       justify-content: space-between;
+      align-items: center;
       gap: 50px; }
       footer .cf div a img {
         width: 50px;
-        height: 50px; }
-  footer .ir-arriba {
-    background-color: white;
-    color: #06A3DA;
-    padding: 10px 20px;
-    margin: 10px;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 5px; }
+        height: 50px;
+        transition: transform 0.3s ease-in-out; }
+        footer .cf div a img:hover {
+          transform: scale(1.2); }
 
 @media screen and (max-width: 852px) {
   .programas-viejos {
@@ -251,6 +260,8 @@ footer {
       display: none; } }
 
 @media screen and (max-width: 734px) {
+  .hero h1 {
+    font-size: 35px; }
   .hero p {
     font-size: 20px; } }
 
